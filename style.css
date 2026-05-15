@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(headerbg\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+#navlinks a:hover{
+    border-bottom:2px solid orange;
+}
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+section h1{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+}
+section hr{
+    width: 40%;
+    border-top: 3px solid aqua;
+}
+section p{
+    color: white;
+}
+section button{
+    color: white;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: 3px;
+}
+main h1{
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
+main p{
+    width:60%;
+}
+main{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+.Gallary{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+.Images{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 5px;
+}
+footer{
+    background-image: url(headerbg\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:80vh;
+    color: white;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+form input{
+    width: 30%;
+    height: 4vh;
+    border-radius: 3px;
+    border: 0px solid white;
+    margin: 5px;
+}
+form textarea{
+    width: 30%;
+    height: 13vh;
+    border-radius: 3px;
+    border: 0px solid white;
+    margin: 5px;
+}
+.P{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+}
+.FooterImages img{
+    width: 20%;
+}
